@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Felipe</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1 class="text-center">Pedro Felipe</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <ul class="navbar-nav m-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#sobremim">Sobre mim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#hobies">Hobies</a>
+                  </li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="sobremim" class="container mb-5 p-4 bg-light rounded">
+          <h2 class="mb-3">Sobre mim</h2>
+          <p>Bem-vindo! Meu nome é Pedro Felipe, sou engenheiro de software, atualmente bacharelando em Engenharia de Software pela faculdade Descomplica.</p>
+        </section>
+
+        <section id="habilidades" class="container mb-5 p-4 bg-light rounded">
+            <h2 class="mb-3">Habilidades</h2>
+            <p>Minhas habilidades acerca de programação estão destacadas no uso do Javascript para criação de aplicações, implementando front-end, back-end e estruturação do banco de dados.</p>
+        </section>
+
+        <section id="hobies" class="container mb-5 p-4 bg-light rounded">
+            <h2 class="mb-3">Hobies</h2>
+            <p>Apesar de trabalhar com isso, programar tem se tornado um hobie que quando estou sozinho sem nada para fazer, crio diversos projetos para resolver coisas do dia a dia. Também gosto de viajar, jogar e assistir filmes e series.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <div class="container">
+            <p>Pedro Felipe | Copyright © <span id="ano"></span> - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+      document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
